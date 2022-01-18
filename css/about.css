@@ -1,0 +1,86 @@
+
+html{font-family: 'Luxurious Roman', cursive;}
+
+body{background: #dd3e54;      background: -webkit-linear-gradient(to right, #6be585, #dd3e54);  
+    background: linear-gradient(to right, #6be585, #dd3e54); 
+    }
+  
+
+
+    #logo{
+        width: 60px;
+        height: 60px;
+        margin: 0px;
+    }
+#titleWeb {
+    display: inline-flex;
+    border-radius: 50% 20% / 10% 40%;
+    border-left: thick double #6be585;
+    background-color:#dd3e54;
+    padding: 20px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.search{
+     
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        margin-top: 20px;
+    margin-right: 20px;     
+}
+
+
+  #staterText{
+      margin-left: 80px;
+     
+  }
+  
+ #div1{
+     
+    position: absolute;
+    top:80px;
+    right: 18px;
+    margin-bottom: 0px;
+ }
+
+
+
+
+
+nav{
+    padding-top: 2.8rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+    
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 60px 20px 60px;
+    border-radius: 25% 10%;
+    background-color:#dd3e54;
+    padding: 10px;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration-line: none;
+    text-transform:capitalize;
+  transition: .5s;
+}
+nav ul li a:hover{
+    color:#6be585;
+}
+#tasks{
+    width: 40%;
+    height: 35%;
+
+    margin-top: 0 ;
+}
