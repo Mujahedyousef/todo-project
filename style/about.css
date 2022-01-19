@@ -1,4 +1,3 @@
-
 html{font-family: 'Luxurious Roman', cursive;}
 
 body{background: #dd3e54;      background: -webkit-linear-gradient(to right, #6be585, #dd3e54);  
@@ -22,28 +21,7 @@ body{background: #dd3e54;      background: -webkit-linear-gradient(to right, #6b
     cursor: pointer;
 }
 
-.search{
-     
-        position: absolute;
-        top: 8px;
-        right: 16px;
-        margin-top: 20px;
-    margin-right: 20px;     
-}
 
-
-  #staterText{
-      margin-left: 80px;
-     
-  }
-  
- #div1{
-     
-    position: absolute;
-    top:80px;
-    right: 18px;
-    margin-bottom: 0px;
- }
 
 
 
@@ -79,8 +57,69 @@ nav ul li a:hover{
     color:#6be585;
 }
 #tasks{
-    width: 40%;
-    height: 35%;
+    width: 25%;
+    height: 25%;
 
     margin-top: 0 ;
 }
+
+ 
+
+  #t01{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    margin: 10px;
+
+}
+#t1{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    margin: 10px; 
+
+}
+ #n1{
+
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    margin: 10px; 
+}
+
+#n2{
+
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    margin: 10px; 
+}
+#n3{
+
+    position: absolute;
+    top: 75%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    margin: 10px; 
+}
+#messages{
+
+    position: absolute;
+    top:90%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    margin: 10px; 
+}
+ #s1{
+
+    position: absolute;
+    top: 95%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    margin: 10px; 
+} */
+
