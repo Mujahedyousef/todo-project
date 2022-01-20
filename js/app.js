@@ -7,8 +7,7 @@ let valueYourAge= ( yourAge<=0)? alert("please don't worry I can play the song b
                  ( yourAge>20)? alert("please you can go to the advance course.."):
                  alert("please you can go to the basic course..") ;
 
-                (valueYourAge) ;   
-                
+            
                 
 let wlecomeMessage=confirm("Hi User if you want show welcome message");
 (wlecomeMessage);
