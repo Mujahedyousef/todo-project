@@ -1,115 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDo</title>
- <link rel="icon" href="/assets/icon.ico">
- <link rel="stylesheet" href="/style/index.css">
- <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Neonderthaw&family=Nunito+Sans:ital,wght@1,200&display=swap"
-  rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo website.</title>
+  <meta name="description" content="this website is made to for make your tasks and view status her  "/>
+  <meta name="keywords" content="ToDo, todo ,task,tasks,to day task, make day">
+  <link rel="icon" href="/assets/icon.png">
+  <link rel="stylesheet" href="/style/index.css">
 </head>
-<body id="body">
-    <header>
-       <img id="logo" src="/assets/logo.png" alt="ToDo Logo"   >
-       <h1 id="titleWeb"><span>ToDO</span></h1>
-<nav>
-  <ul>
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/index.html">Tasks this day</a></li>
-      <li><a href="/index.html">Challenges</a> </li>
-      <li><a href="/index.html">Start now</a> </li>
-      <li><a href="/about.html">About us</a> </li>
-  </ul>
- </nav> 
+<body>
+  <header>
+<img id="logo" src="/assets/logo.png" alt="logo website">
 
-    </header>  
-   
-    <hr>
-    <main>
-        <img id="tasks" src="/assets/tasks.png" alt="tasks">
-<div id="div2">
+    <nav class="nav header">
+      <h1 >TO <span><br>  DO</span></h1><br>
+      
+<ul class="list">
+  <li class="navlist"><a href="/index.html" class="nava">Home</a></li>
+  <li class="navlist"><a href="/index.html" class="nava">Start Now </a></li>
+  <li class="navlist"><a href="/index.html" class="nava">Challenges</a></li>
+  <li class="navlist"><a href="/about.html" class="nava">About Us</a></li>
+</ul>
 
-    <h2> <b>Today's Tasks</b> </h2>
+    </nav><br><br>
+    <span class="intro"> We created this website for you, to make tasks every day and remind you.</span>
+  </header>
+<hr>
+  <br><br>
+<main>
+<br>
+<div>
 
-   
-<table id="table" >
+  <h2 >ToDo list</h2>
+<table>
+      <th>Tasks</th>
+      <th>Status</th> 
+      
+    </tr>
     <tr>
-      <th>Tasks </th>
-      <th>Status </th>
+      <td>Learn JS</td>
+      <td class="green"><span class="green"></span></td>
       
     </tr>
-     <tr>
-      <td>1)You smiled today.</td>
-      <td><form></form><input  id="100%"    type="radio" name="task1">
-          <label for="100%">100%</label>
-
-          <input  id="75%"    type="radio" name="task1">
-          <label for="75%">75%</label>
-
-          <input  id="50%"    type="radio" name="task1">
-          <label for="50%">50%</label>
-
-          <input  id="25%"    type="radio" name="task1">
-          <label for="25%">25%</label>
-          <input  id="0%"    type="radio" name="task1">
-          <label for="0%">0%</label></form>
-    </td>
-      
+    <tr>
+      <td>Create HTML page</td>
+      <td class="red"><span></span></td>
       
     </tr>
-     <tr>
-      <td>2)You learned anything new.</td>
-      <td>
-        <form>
-        <input  id="100%"    type="radio" name="task2">
-        <label for="100%">100%</label>
-
-        <input  id="75%"    type="radio" name="task2">
-        <label for="75%">75%</label>
-
-        <input  id="50%"    type="radio" name="task2">
-        <label for="50%">50%</label>
-
-        <input  id="25%"    type="radio" name="task2">
-        <label for="25%">25%</label>
-        <input  id="0%"    type="radio" name="task2">
-        <label for="0%">0%</label></form>
-      </td>
-     <tr>
-      <td>3)You practices play sport</td>
-      <td>
-        <form>
-        <input  id="100%"    type="radio" name="task3">
-        <label for="100%">100%</label>
-
-        <input  id="75%"    type="radio" name="task3">
-        <label for="75%">75%</label>
-
-        <input  id="50%"    type="radio" name="task3">
-        <label for="50%">50%</label>
-
-        <input  id="25%"    type="radio" name="task3">
-        <label for="25%">25%</label>
-        <input  id="0%"    type="radio" name="task3">
-        <label for="0%">0%</label> </form>
-      </td>
+    <tr>
+      <td>Walk the dog</td>
+      <td class="red"><span></span></td>
+      
+    </tr>
+    <tr>
+      <td>Watch the match</td>
+      <td class="red"><span></span></td>
       
     </tr>
   </table>
 
-</div>
 
-
-   <hr> </main>
-    
-    <footer><span>&copy; Copyright 2022.</span>
-<span><b>Contact us:</b> </span>
-<span id="contact"><b>Phone:</b> Phone:0780000000</span>
-<span id="contactemail"><b>E-mail: </b>Example@gmail.com</span>
+</div> <br><br><br>
+</main>
+ <hr> 
+<footer>
+<span class="copyright">&copy; Copyright 2022 ASAC </span> 
 </footer>
 <script src="/js/app.js"></script>
 </body>
 </html>
-
